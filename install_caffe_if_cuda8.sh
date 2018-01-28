@@ -57,10 +57,10 @@ sudo apt-get --assume-yes install --no-install-recommends libboost-all-dev
     sudo apt-get --assume-yes install libgflags-dev libgoogle-glog-dev liblmdb-dev
 # fi
 # Python libs
-sudo apt-get --assume-yes install python-setuptools python-pip python-dev build-essential
-sudo apt-get install python-numpy
-sudo easy_install pip
-sudo -H pip install numpy protobuf
+# sudo apt-get --assume-yes install python-setuptools python-pip python-dev build-essential
+# sudo apt-get install python-numpy
+# sudo easy_install pip
+sudo -H pip3 install numpy protobuf
 # sudo -H pip install --upgrade numpy protobuf
 sudo ldconfig
 # OpenCV 2.4
